@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.Operaciones">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/descarga" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="Resultado de la operación:" />
+
+    <TextView
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:id="@+id/lblRecibido2"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:textSize="24sp"
+        android:text="(Resultado)" />
+</LinearLayout>
